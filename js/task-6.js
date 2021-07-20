@@ -11,9 +11,11 @@ const changeBorder = function (event) {
 
  if (length === Number(event.currentTarget.getAttribute('data-length'))) {
      inputEl.classList.add('valid');
+     inputEl.classList.remove('invalid');
      console.log("valid");
     } else {
      inputEl.classList.add('invalid');
+     inputEl.classList.remove('valid');
      console.log("invalid");
     };
 }

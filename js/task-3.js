@@ -16,20 +16,7 @@ const images = [
   },
 ];
 
-// const imagesList = document.createElement('li');
-// const elements = images.map(image => {
-//     const imageEl = document.createElement('img');
-//     imageEl.src = image.url;
-//     imageEl.alt = image.alt;
-//     return imageEl;
-// }).join('')
-// // const makeImageGallery = images.map(elements);
-//     ;
 
-// console.log(elements);
-
-// const gallery = document.querySelector('#gallery');
-// gallery.insertAdjacentHTML("afterbegin", elements);
 
 const gallery = document.querySelector('#gallery');
 gallery.classList.add("image-list")

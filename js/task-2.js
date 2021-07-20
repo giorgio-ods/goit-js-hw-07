@@ -12,7 +12,6 @@ const ingredientsContainer = document.querySelector('ul#ingredients')
 const items = ingredients.map(elements => {
     const ingredientsEl = document.createElement('li');
     ingredientsEl.textContent = elements;
-    console.log(ingredientsEl)
     return ingredientsEl;
 });
 console.log(items);
